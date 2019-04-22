@@ -1,0 +1,6 @@
+id=exfat-utils
+name=exFAT Utils
+version=v1
+versionCode=1
+author=thecubed
+description=Utilities for creating and checking exFAT filesystems
