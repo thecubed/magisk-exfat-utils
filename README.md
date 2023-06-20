@@ -33,3 +33,7 @@ Put this zip file on your SD card and use Magisk Manager to install it. Reboot p
 ## Proof?!
 ![proof](https://i.imgur.com/UUPZl8Vl.png)
 -Taken from my Razer Phone 2
+
+## Distribution point
+
+Find newest development at https://github.com/thecubed/magisk-exfat-utils
