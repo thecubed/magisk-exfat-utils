@@ -135,7 +135,11 @@ set_permissions() {
   # The following is the default rule, DO NOT remove
   set_perm_recursive $MODPATH 0 0 0755 0644
 
+  set_perm $MODPATH/system/bin/dump.exfat	0	0	0755
+  set_perm $MODPATH/system/bin/tune.exfat	0	0	0755
   set_perm $MODPATH/system/bin/mkfs.exfat	0	0	0755
+  set_perm $MODPATH/system/bin/exfat2img	0	0	0755
+  set_perm $MODPATH/system/bin/exfatlabel	0	0	0755
   set_perm $MODPATH/system/bin/fsck.exfat	0	0	0755	u:object_r:fsck_exec:s0
 }
 
