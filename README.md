@@ -3,9 +3,17 @@ Got a kernel that has exFAT support, but no `mkfs.exfat` or `fsck.exfat` binarie
 No problem! Just install this and you'll be good to go.
 
 ## What does this do?
-Simple, it provides two binaries:
-- `/system/bin/mkfs.exfat`
+Simple, it provides binaries built from https://github.com/exfatprogs/exfatprogs
+(previously by Samsung, now FOSS) as of release 1.2.1, static for aarch64,
+per https://gist.github.com/jimklimov/e6775212f6c9781173e94f5085f32fdb instructions/notes
+(in case you'd need to build your own and add here instead):
+
+- `/system/bin/dump.exfat`
+- `/system/bin/exfat2img`
+- `/system/bin/exfatlabel`
 - `/system/bin/fsck.exfat`
+- `/system/bin/mkfs.exfat`
+- `/system/bin/tune.exfat`
 
 These binaries allow you to use in-kernel exFAT (via sdfat) drivers for your Android 9.0 phone.
 
